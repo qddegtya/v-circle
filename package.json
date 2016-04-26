@@ -1,7 +1,7 @@
 {
   "name": "v-circle",
   "version": "0.1.0",
-  "description": "vue circle progress components",
+  "description": "A collection of circle progress with Vue.js.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot",
