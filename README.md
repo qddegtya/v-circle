@@ -27,7 +27,7 @@ The easiest way to use `v-circle` is to install it from NPM and include it in yo
 $ npm install v-circle
 ```
 
-## build
+## Build
 
 build to dist
 
