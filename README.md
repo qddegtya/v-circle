@@ -27,9 +27,19 @@ The easiest way to use `v-circle` is to install it from NPM and include it in yo
 $ npm install v-circle
 ```
 
-You can also use the standalone build by including `dist/v-circle.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
+## build
+
+build to dist
+
+```
+$ npm run build
+```
+
+You can also use the standalone build by including `dist/v-circle.js` in your page. If you use this, make sure you have already included Vue, and it is available as a global variable.
 
 ## Usage
+
+.vue file usage
 
 ```
 <template>

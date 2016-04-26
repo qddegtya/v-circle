@@ -7,6 +7,11 @@
     </h3>
   </div>
 
+  <div class="gbtn">
+    <iframe src="https://ghbtns.com/github-btn.html?user=qddegtya&repo=v-circle&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+    <iframe src="https://ghbtns.com/github-btn.html?user=qddegtya&repo=v-circle&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+  </div>
+
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix">
@@ -173,6 +178,12 @@ body {
     padding: 0;
     font-family: 'Monaco';
   }
+}
+.gbtn {
+  width: 610px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 </style>
 
