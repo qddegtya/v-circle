@@ -67,13 +67,13 @@ export default {
 
 ### CssCircles
 
-| props | type | description | example | default |
-|:------------- |:--------------- |:------------- |:--------|
-| color    | String | circle progress fill color | #000000 | #2ecc71 |
-| width    | Number | circle size | 180 | 150 |
-| fontSize    | Number | circle progress value size | 64 | 64 |
-| pv    | Number | circle progress value | 75 | 0 |
-| textColor    | String | circle progress value color | #bdc3c7 | #bdc3c7 |
-| bold    | String | circle progress outline width | 10 | 5 |
-| textBgColor    | String | circle progress value background-color | #000000 | #f9f9f9 |
-| borderColor    | String | circle progress outline color | #000000 | #bdc3c7 |
+| prop | type | description | example | default value |
+|:------------- |:--------------- |:------------- |:-------- |:-------- |
+| color | String | circle progress fill color | #000000 | #2ecc71 |
+| width | Number | circle size | 180 | 150 |
+| fontSize | Number | circle progress value size | 64 | 64 |
+| pv | Number | circle progress value | 75 | 0 |
+| textColor | String | circle progress value color | #bdc3c7 | #bdc3c7 |
+| bold | String | circle progress outline width | 10 | 5 |
+| textBgColor | String | circle progress value background-color | #000000 | #f9f9f9 |
+| borderColor | String | circle progress outline color | #000000 | #bdc3c7 |
