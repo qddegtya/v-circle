@@ -62,5 +62,3 @@ export default {
 * CssCircles
 * SvgCircles
 * CanvasCircles
-
-## Browser Support
