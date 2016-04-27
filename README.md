@@ -43,7 +43,7 @@ You can also use the standalone build by including `dist/v-circle.js` in your pa
 
 ```
 <template>
-<circle-css color="#c0392b" width=110 font-size=50 pv=12></circle-css>      
+<circle-css color="#3498db" width=120 font-size=48 pv=12 bold=8 text-bg-color='#f0f0f0'></circle-css>
 </template>
 
 <script>
@@ -62,3 +62,18 @@ export default {
 * CssCircles
 * SvgCircles
 * CanvasCircles
+
+## API
+
+### CssCircles
+
+| props | type | description | example | default |
+|:------------- |:--------------- |:------------- |:--------|
+| color    | String | circle progress fill color | #000000 | #2ecc71 |
+| width    | Number | circle size | 180 | 150 |
+| fontSize    | Number | circle progress value size | 64 | 64 |
+| pv    | Number | circle progress value | 75 | 0 |
+| textColor    | String | circle progress value color | #bdc3c7 | #bdc3c7 |
+| bold    | String | circle progress outline width | 10 | 5 |
+| textBgColor    | String | circle progress value background-color | #000000 | #f9f9f9 |
+| borderColor    | String | circle progress outline color | #000000 | #bdc3c7 |
