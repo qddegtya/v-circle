@@ -93,7 +93,8 @@ export default {
     'textColor',
     'bold',
     'textBgColor',
-    'borderColor'
+    'borderColor',
+    'during'
   ],
 
   data() {
@@ -126,7 +127,7 @@ export default {
       },
 
       transitionStyle: {
-        transition: this.setTransitionStyle(this.during || 0.5)
+        transition: this.setTransitionStyle(this.during || 0.8)
       },
 
       maskStyle: {

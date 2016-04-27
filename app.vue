@@ -17,7 +17,7 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix">
-      <circle-css color="#3498db" width=120 font-size=32 pv=50 bold=8 text-bg-color='#f0f0f0'></circle-css>
+      <circle-css color="#3498db" width=120 font-size=32 pv=50 bold=8 text-bg-color='#f0f0f0' during=2></circle-css>
       <circle-css color="#2ecc71" width=180 font-size=48 pv=100 bold=8 text-bg-color='#f0f0f0'></circle-css>
       <circle-css color="#e67e22" width=120 font-size=32 pv=88 bold=8 text-bg-color='#f0f0f0'></circle-css>
     </div>

@@ -77,3 +77,4 @@ export default {
 | bold | String | circle progress outline width | 10 | 5 |
 | textBgColor | String | circle progress value background-color | #000000 | #f9f9f9 |
 | borderColor | String | circle progress outline color | #000000 | #bdc3c7 |
+| during | Number | circle progress animation dur-time | 2 | 0.8 |
