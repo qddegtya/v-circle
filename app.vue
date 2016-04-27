@@ -7,6 +7,8 @@
     </h3>
   </div>
 
+  <div class="des"></div>
+
   <div class="gbtn">
     <iframe src="https://ghbtns.com/github-btn.html?user=qddegtya&repo=v-circle&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
     <iframe src="https://ghbtns.com/github-btn.html?user=qddegtya&repo=v-circle&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
@@ -15,9 +17,9 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix">
-      <circle-css color="#3498db" width=110 font-size=48 pv=12 bold=8></circle-css>
-      <circle-css color="#2ecc71" width=160 font-size=64 pv=100 bold=8></circle-css>
-      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8></circle-css>
+      <circle-css color="#3498db" width=120 font-size=32 pv=50 bold=8 text-bg-color='#f0f0f0'></circle-css>
+      <circle-css color="#2ecc71" width=180 font-size=48 pv=100 bold=8 text-bg-color='#f0f0f0'></circle-css>
+      <circle-css color="#e67e22" width=120 font-size=32 pv=88 bold=8 text-bg-color='#f0f0f0'></circle-css>
     </div>
     <div class="codes">
       <code>
@@ -29,9 +31,9 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix">
-      <circle-css color="#3498db" width=110 font-size=48 pv=12 bold=8></circle-css>
-      <circle-css color="#2ecc71" width=160 font-size=64 pv=100 bold=8></circle-css>
-      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8></circle-css>
+      <circle-css color="#3498db" width=120 font-size=48 pv=12 bold=8 text-bg-color='#f0f0f0'></circle-css>
+      <circle-css color="#2ecc71" width=180 font-size=64 pv=100 bold=8 text-bg-color='#f0f0f0'></circle-css>
+      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8 text-bg-color='#f0f0f0'></circle-css>
     </div>
     <div class="codes">
       <code>
@@ -43,9 +45,9 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix dark">
-      <circle-css color="#3498db" width=110 font-size=48 pv=12 bold=8 text-color="#ecf0f1"></circle-css>
-      <circle-css color="#2ecc71" width=160 font-size=64 pv=100 bold=8 text-color="#ecf0f1"></circle-css>
-      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8 text-color="#ecf0f1"></circle-css>
+      <circle-css color="#3498db" width=120 font-size=48 pv=12 bold=8></circle-css>
+      <circle-css color="#2ecc71" width=180 font-size=64 pv=100 bold=8></circle-css>
+      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8></circle-css>
     </div>
     <div class="codes">
       <code>
@@ -71,8 +73,8 @@ $white: #ffffff;
 $darkBg: #212121;
 
 .clearfix {
-  overflow:auto;
-  _height:1%;
+  overflow: hidden;
+  _height: 1%;
 }
 
 body {
