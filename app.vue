@@ -15,9 +15,9 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix">
-      <circle-css color="#c0392b" width=110 font-size=50 pv=12></circle-css>
-      <circle-css color="#27ae60" width=180 font-size=80 bold=10 pv=100></circle-css>
-      <circle-css color="#16a085" width=120 font-size=60 pv=88></circle-css>
+      <circle-css color="#3498db" width=110 font-size=48 pv=12 bold=8></circle-css>
+      <circle-css color="#2ecc71" width=160 font-size=64 pv=100 bold=8></circle-css>
+      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8></circle-css>
     </div>
     <div class="codes">
       <code>
@@ -29,9 +29,9 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix">
-      <circle-css color="#c0392b" width=110 font-size=50 pv=12></circle-css>
-      <circle-css color="#27ae60" width=180 font-size=80 bold=10 pv=100></circle-css>
-      <circle-css color="#16a085" width=120 font-size=60 pv=88></circle-css>
+      <circle-css color="#3498db" width=110 font-size=48 pv=12 bold=8></circle-css>
+      <circle-css color="#2ecc71" width=160 font-size=64 pv=100 bold=8></circle-css>
+      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8></circle-css>
     </div>
     <div class="codes">
       <code>
@@ -42,10 +42,10 @@
 
   <!-- css-circle -->
   <div class="circle-container">
-    <div class="preview clearfix">
-      <circle-css color="#c0392b" width=110 font-size=50 pv=12></circle-css>
-      <circle-css color="#27ae60" width=180 font-size=80 bold=10 pv=100></circle-css>
-      <circle-css color="#16a085" width=120 font-size=60 pv=88></circle-css>
+    <div class="preview clearfix dark">
+      <circle-css color="#3498db" width=110 font-size=48 pv=12 bold=8 text-color="#ecf0f1"></circle-css>
+      <circle-css color="#2ecc71" width=160 font-size=64 pv=100 bold=8 text-color="#ecf0f1"></circle-css>
+      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8 text-color="#ecf0f1"></circle-css>
     </div>
     <div class="codes">
       <code>
@@ -68,6 +68,7 @@ $bgColor: #f9f9f9;
 $vGreen: #27ae60;
 $codeBg: #2c3e50;
 $white: #ffffff;
+$darkBg: #212121;
 
 .clearfix {
   overflow:auto;
@@ -136,6 +137,10 @@ body {
     background-color: $white;
     box-sizing: border-box;
     padding: 60px 30px;
+
+    &.dark {
+      background-color: $darkBg;
+    }
 
     .v-circle {
       float: left;
