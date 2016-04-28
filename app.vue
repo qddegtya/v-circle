@@ -94,6 +94,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  font-family:'Hiragino Sans GB','Microsoft Yahei',SimSun,Tahoma,Arial,Helvetica,STHeiti;
 }
 
 .fluid {
