@@ -94,7 +94,8 @@ export default {
     'bold',
     'textBgColor',
     'borderColor',
-    'during'
+    'during',
+    'bgColor'
   ],
 
   data() {
@@ -106,7 +107,7 @@ export default {
         borderWidth: DEFAULT_BOLD + 'px',
         width: (this.width || DEFAULT_WIDTH) + 'px',
         height: (this.width || DEFAULT_WIDTH) + 'px',
-        backgroundColor: DEFAUTL_BG_COLOR
+        backgroundColor: (this.bgColor || DEFAUTL_BG_COLOR)
       },
 
       // 进度文字样式

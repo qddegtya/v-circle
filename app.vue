@@ -17,8 +17,20 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix">
-      <circle-css color="#3498db" width=120 font-size=32 pv=50 bold=8 text-bg-color='#f0f0f0' during=2></circle-css>
-      <circle-css color="#2ecc71" width=180 font-size=48 pv=100 bold=8 text-bg-color='#f0f0f0'></circle-css>
+      <circle-css
+        color="#3498db"
+        width=140
+        font-size=32
+        pv=51
+        bold=12
+        text-bg-color='#2c3e50'
+        during=2
+        border-color='#ffffff'
+        bg-color='#ffffff',
+        text-color='#ffffff'
+      >
+      </circle-css>
+      <circle-css color="#2ecc71" width=140 font-size=48 pv=100 bold=10 text-bg-color='#34495e' border-color='#f0f0f0' text-color='#ffffff'></circle-css>
       <circle-css color="#e67e22" width=120 font-size=32 pv=88 bold=8 text-bg-color='#f0f0f0'></circle-css>
     </div>
     <div class="codes">
@@ -31,9 +43,9 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix">
-      <circle-css color="#3498db" width=120 font-size=48 pv=12 bold=8 text-bg-color='#f0f0f0'></circle-css>
-      <circle-css color="#2ecc71" width=180 font-size=64 pv=100 bold=8 text-bg-color='#f0f0f0'></circle-css>
-      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8 text-bg-color='#f0f0f0'></circle-css>
+      <circle-css color="#16a085" width=130 font-size=48 pv=12 bold=8 text-bg-color='#ffffff'></circle-css>
+      <circle-css color="#c0392b" width=160 font-size=64 pv=99 bold=12 text-bg-color='#212121' border-color='#f0f0f0' text-color='#ffffff'></circle-css>
+      <circle-css color="#2c3e50" width=120 font-size=48 pv=88 bold=8 text-bg-color='#f0f0f0'></circle-css>
     </div>
     <div class="codes">
       <code>
@@ -45,9 +57,9 @@
   <!-- css-circle -->
   <div class="circle-container">
     <div class="preview clearfix dark">
-      <circle-css color="#3498db" width=120 font-size=48 pv=12 bold=8></circle-css>
-      <circle-css color="#2ecc71" width=180 font-size=64 pv=100 bold=8></circle-css>
-      <circle-css color="#e67e22" width=120 font-size=48 pv=88 bold=8></circle-css>
+      <circle-css color="#3498db" width=120 font-size=42 pv=12 bold=10 border-color='#212121' text-bg-color='#666666' text-color='#ffffff'></circle-css>
+      <circle-css color="#2ecc71" width=160 font-size=64 pv=100 bold=10 border-color='#212121'></circle-css>
+      <circle-css color="#e67e22" width=130 font-size=40 pv=88 bold=15 border-color='#212121' bg-color='#212121'></circle-css>
     </div>
     <div class="codes">
       <code>
