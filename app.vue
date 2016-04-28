@@ -35,7 +35,7 @@
     </div>
     <div class="codes">
       <code>
-        var circle = require('v-circle/components/css-circle.vue');
+        import CssCircle from 'v-circle/components/css-circle.vue'
       </code>
     </div>
   </div>
@@ -49,7 +49,7 @@
     </div>
     <div class="codes">
       <code>
-        var circle = require('v-circle/components/css-circle.vue');
+        import CssCircle from 'v-circle/components/css-circle.vue'
       </code>
     </div>
   </div>
@@ -63,7 +63,7 @@
     </div>
     <div class="codes">
       <code>
-        var circle = require('v-circle/components/css-circle.vue');
+        import CssCircle from 'v-circle/components/css-circle.vue'
       </code>
     </div>
   </div>
