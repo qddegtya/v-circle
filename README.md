@@ -23,7 +23,7 @@ Then open [http://localhost:8080/examples/home.html](http://localhost:8080/examp
 
 The easiest way to use `v-circle` is to install it from NPM and include it in your own Vue build process (using [Webpack](http://webpack.github.io/), etc)
 
-```bash
+```
 $ npm install v-circle
 ```
 
