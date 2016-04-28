@@ -65,6 +65,7 @@ export default {
     setTransformStyle(pv, type) {
       let deg = Math.floor((pv / 100) * 180)
       if(type === 'fix') {
+        // remove the gap between two half circles
         return `rotate(${deg * 2}deg)`
       }
       return `rotate(${deg}deg)`
@@ -99,6 +100,14 @@ export default {
   ],
 
   data() {
+    let transformStyleValue = this.setTransformStyle(this.pv)
+      , innerCircleWidth = ((this.width || DEFAULT_WIDTH)
+                           - 2 * (this.bold || DEFAULT_BOLD))
+                           + 'px'
+
+      , fixTransformStyleValue = this.setTransformStyle(this.pv, 'fix')
+      , transitionStyleValue = this.setTransitionStyle(this.during || 0.8)
+
     return {
       // 环形样式
       circleStyle: {
@@ -124,11 +133,19 @@ export default {
       },
 
       rotateStyle: {
-        transform: this.setTransformStyle(this.pv)
+        transform: transformStyleValue,
+        webkitTransform: transformStyleValue,
+        msTransform: transformStyleValue,
+        oTransform: transformStyleValue,
+        mozTransform: transformStyleValue
       },
 
       transitionStyle: {
-        transition: this.setTransitionStyle(this.during || 0.8)
+        transition: transitionStyleValue,
+        webkitTransition: transitionStyleValue,
+        mozTransition: transitionStyleValue,
+        oTransition: transitionStyleValue,
+        msTransition: transitionStyleValue
       },
 
       maskStyle: {
@@ -139,13 +156,17 @@ export default {
 
       pvStyle: {
         backgroundColor: this.textBgColor || DEFAUTL_TEXT_BG_COLOR,
-        width: ((this.width || DEFAULT_WIDTH) - 2 * (this.bold || DEFAULT_BOLD)) + 'px',
-        height: ((this.width || DEFAULT_WIDTH) - 2 * (this.bold || DEFAULT_BOLD)) + 'px',
-        lineHeight: ((this.width || DEFAULT_WIDTH) - 2 * (this.bold || DEFAULT_BOLD)) + 'px'
+        width: innerCircleWidth,
+        height: innerCircleWidth,
+        lineHeight: innerCircleWidth
       },
 
       fixStyle: {
-        transform: this.setTransformStyle(this.pv, 'fix')
+        transform: fixTransformStyleValue,
+        webkitTransform: fixTransformStyleValue,
+        mozTransform: fixTransformStyleValue,
+        oTransform: fixTransformStyleValue,
+        msTransform: fixTransformStyleValue
       }
     }
   }
