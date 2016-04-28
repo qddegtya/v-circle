@@ -90,11 +90,16 @@ $darkBg: #212121;
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
   background-color: $bgColor;
   margin: 0;
   padding: 0;
   font-size: 16px;
   font-family:'Hiragino Sans GB','Microsoft Yahei',SimSun,Tahoma,Arial,Helvetica,STHeiti;
+}
+
+code {
+  font-family: Monaco, simhei
 }
 
 .fluid {
