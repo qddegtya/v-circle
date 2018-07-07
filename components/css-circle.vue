@@ -15,7 +15,7 @@
 </div>
 </template>
 
-<style lang="sass" scoped>
+<style lang="scss" scoped>
   .v-circle {
     border-radius: 50%;
     position: relative;
