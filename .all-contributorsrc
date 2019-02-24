@@ -10,12 +10,14 @@
   "commit": false,
   "contributors": [
     {
-      "login": "mediafigaro",
-      "name": "MEDIA.figaro",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/18629935?v=4",
-      "profile": "http://mediafigaro.github.io",
+      "login": "qddegtya",
+      "name": "Archer (炽宇)",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/773248?v=4",
+      "profile": "http://xiaoa.name",
       "contributions": [
-        "code"
+        "code",
+        "infra",
+        "maintenance"
       ]
     }
   ],
