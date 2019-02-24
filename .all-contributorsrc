@@ -1,0 +1,25 @@
+{
+  "projectName": "v-circle",
+  "projectOwner": "qddegtya",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "qddegtya",
+      "name": "Archer (炽宇)",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/773248?v=4",
+      "profile": "http://xiaoa.name",
+      "contributions": [
+        "code",
+        "infra",
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
