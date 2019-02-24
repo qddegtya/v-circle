@@ -1,0 +1,23 @@
+{
+  "projectName": "v-circle",
+  "projectOwner": "qddegtya",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "mediafigaro",
+      "name": "MEDIA.figaro",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/18629935?v=4",
+      "profile": "http://mediafigaro.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}

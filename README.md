@@ -1,4 +1,5 @@
 v-circle
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 ======
 
 A collection of circle progress with Vue.js.
@@ -79,3 +80,15 @@ export default {
 | borderColor | String | circle progress outline color | #000000 | #bdc3c7 |
 | during | Number | circle progress animation dur-time | 2 | 0.8 |
 | bgColor | String | circle progress background-color | #000000 | #f0f0f0 |
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/all-contributors/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars1.githubusercontent.com/u/18629935?v=4" width="100px;" alt="MEDIA.figaro"/><br /><sub><b>MEDIA.figaro</b></sub>](http://mediafigaro.github.io)<br />[💻](https://github.com/qddegtya/v-circle/commits?author=mediafigaro "Code") |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
